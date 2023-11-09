@@ -12,12 +12,11 @@ class Door {
   }
 
   operate() {
-    if (this.state == true) this.close();
+    if (this.isOpen()) this.close();
     else this.open();
   }
 
   isOpen() {
-    if (this.state == true) console.log("La porte est ouverte");
-    else console.log("La porte est fermée");
+    return this.state;
   }
 }
