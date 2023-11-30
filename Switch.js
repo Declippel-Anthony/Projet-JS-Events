@@ -1,6 +1,4 @@
 class Switch {
-  positon;
-
   constructor() {
     this.off();
   }
