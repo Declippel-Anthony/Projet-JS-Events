@@ -5,5 +5,5 @@ class CarUI {
     //this.lightPicture = new LightPicture;
   }
 
-  operateRightDoor(side, buttonElement) {}
+  operateDoor(side, buttonElement) {}
 }
