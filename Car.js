@@ -5,11 +5,11 @@ class Car {
     this.switch = new Switch();
   }
 
-  operateRight() {
+  operateRightDoor() {
     this.rightDoor.operate();
   }
 
-  operateLeft() {
+  operateLeftDoor() {
     this.leftDoor.operate();
   }
 
